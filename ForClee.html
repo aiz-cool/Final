@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6dd5ed, #2193b0, #f7971e, #ffd200);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center-link {
+            text-align: center;
+        }
+        .custom-link {
+            text-decoration: none;
+        }
+        h1 {
+            color: #fff;
+            font-size: 3em;
+            font-family: 'Segoe UI', sans-serif;
+            text-shadow: 2px 2px 8px #444;
+            margin-bottom: 0.2em;
+        }
+        .arrow {
+            font-size: 2em;
+            color: #fff;
+            animation: bounce 1s infinite;
+            display: block;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0);}
+            50% { transform: translateY(-15px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="center-link">
+        <span class="arrow">&#8595;</span>
+        <a href="Letter.html" target="_self" title="Click This To Go To the Second Page" class="custom-link">
+            <h1>Hi!</h1>
+        </a>
+        <span style="color:#fff; font-size:1.2em;">Click the text above to continue</span>
+    </div>
+</body>
+</html>
